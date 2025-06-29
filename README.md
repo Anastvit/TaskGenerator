@@ -13,6 +13,7 @@
 1. Клонировать репозиторий:
 
     git clone https://github.com/Anastvit/TaskGenerator.git
+
     cd TaskGenerator
 
 ---
