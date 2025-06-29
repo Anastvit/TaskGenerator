@@ -1,0 +1,70 @@
+.node {
+  background: #2d9d59;
+  color: #fff;
+  border-radius: 12px;
+  padding: 14px 16px;
+  min-width: 200px;
+  font-size: 14px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label {
+  font-size: 13px;
+  color: #eaffef;
+}
+
+input[type='text'],
+input[type='number'] {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 6px 8px;
+  color: #fff;
+  font-size: 13px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #d4f5de;
+}
+
+input[type='radio'] {
+  margin-right: 6px;
+  transform: scale(1.05);
+}
+
+.inline {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.verticalList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.handle {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.root {
+  background: #1a5d35 !important;
+}

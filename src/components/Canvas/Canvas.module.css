@@ -1,0 +1,23 @@
+.canvas {
+  flex-grow: 1;
+  height: 100vh;
+  position: relative;
+}
+
+.clearButton {
+  position: absolute;
+  bottom: 20px;
+  right: 200px;
+  padding: 10px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 14px;
+}
+
+.clearButton:hover {
+  background-color: #c82333;
+}

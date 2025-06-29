@@ -1,0 +1,44 @@
+.node {
+  background:#5a54d1;
+  color:#fff;
+  border-radius:12px;
+  padding:12px;
+  max-width:300px;
+  font-size:14px;
+  box-shadow:2px 2px 6px rgba(0,0,0,.08);
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  font-family:'Segoe UI',sans-serif;
+  min-width:150px;
+  width:auto;
+  box-sizing:border-box;
+}
+
+.root{background:#3366cc;}
+
+.textarea{
+  background:transparent;
+  border:none;
+  resize:none;
+  outline:none;
+  font-size:14px;
+  color:#fff;
+  font-family:inherit;
+  padding:4px 0;
+  overflow:hidden;
+  line-height:1.4;
+  width:100%;
+  box-sizing:border-box;
+  display:block;
+}
+
+.handle{
+  width:10px;
+  height:10px;
+  background:#fff;
+  border:2px solid #333;
+  border-radius:50%;
+  z-index:10;
+}
