@@ -36,6 +36,6 @@
 
 API будет доступно по адресу: http://localhost:8000
 
-Если файла requirements.txt ещё нет, создай его после установки зависимостей:
+Если файла requirements.txt нет, создайте его после установки зависимостей:
 
     pip freeze > requirements.txt
