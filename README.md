@@ -1,12 +1,41 @@
-# React + Vite
+Генератор задач на графах
+==========================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Интерактивное веб-приложение для создания и генерации вариантов задач.
+Пользователь может собирать шаблоны из узлов (текст, переменные, массивы), соединять их связями, сохранять, загружать и генерировать текстовые варианты.  
+Есть поддержка тем, экспорт в PDF и работа с локальной базой.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Запуск проекта
+==============
 
-## Expanding the ESLint configuration
+1. Клонировать репозиторий:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    git clone https://github.com/your-username/your-repo-name.git  
+    cd your-repo-name
+
+---
+
+2. Установить и запустить frontend (React + Vite):
+
+    npm install  
+    npm run dev
+
+Откроется по адресу: http://localhost:5173
+
+---
+
+3. Установить и запустить backend (FastAPI + SQLite):
+
+    cd backend  
+    python -m venv venv  
+    source venv/bin/activate         (на Windows: venv\Scripts\activate)  
+    pip install -r requirements.txt  
+    uvicorn main:app --reload
+
+API будет доступно по адресу: http://localhost:8000
+
+Если файла requirements.txt ещё нет, создай его после установки зависимостей:
+
+    pip freeze > requirements.txt
